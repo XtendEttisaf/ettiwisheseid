@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Atma');
+@import url('https://cdn.rawgit.com/sh4hids/bangla-web-fonts/bensen-handwriting/stylesheet.css');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+*{
+    margin: 0;
+    top: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 60rem;
+    box-shadow: 0 0 0.7rem black;
+}
+.intro{
+    text-align: center;
+    transition: 2s;
+}
+.intro label{
+    font-family: 'Atma', cursive;
+    font-weight: bolder;
+    letter-spacing: 0.1rem;
+    font-size: 7rem;
+    animation: eid 5s linear infinite alternate;
+   
+}
+
+@keyframes eid{
+    0%{
+        text-shadow: 0 0 0.7rem white;
+        color: #ffffff;
+        letter-spacing: 2rem;
+    }
+    25%{
+        text-shadow: 0 0 1.5rem white;
+        letter-spacing: 1rem;
+    }
+    50%{
+        text-shadow: 0 0 1.5rem white;
+        letter-spacing: 0.5rem;
+    }
+    75%{
+        text-shadow: 0 0 3rem white;
+        color: rgba(255, 255, 255, 1.0);
+        letter-spacing: 0.1rem;
+    }
+    100%{
+        text-shadow: 0 0 3rem white;
+        color: rgba(255, 255, 255, 1.0);
+        letter-spacing: 0.1rem;
+    }
+    
+}
+
+.art{
+    text-align: center;
+    box-shadow: 0 0 0.5rem white;
+    padding: 2rem 3rem;
+    letter-spacing: 0.1rem;
+    font-weight: 1000;
+}
+.art label{
+    font-family: 'BenSenHandwriting';
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 1.0);
+    animation: art 0.7s linear infinite alternate;
+}
+
+.wish{
+    text-align: center;
+    margin-top: 5rem;
+}
+.wish label{
+    font-family: 'BenSenHandwriting';
+    color: white;
+    font-size: 4rem;
+}
+
+.contact p{
+    font-family: 'Special Elite', cursive;
+    font-weight: 300;
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    text-shadow: 0 0 0.1rem white;
+    padding: 0rem 1rem;
+}
+
+.links{
+    text-align: center;
+    font-size: 3.5rem;
+    margin-top: 3rem;
+    letter-spacing: 0.7rem;
+}
+.links label{
+    left: 20%;
+    color: white;
+    background-color: black;
+    padding: 0.5rem 2rem;
+    font-size: 2rem;
+    letter-spacing: 0rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 4rem 1rem 3rem 0rem;
+    box-shadow: 0 0 1.5rem rgb(0, 133, 122);
+}
+.links a{
+    color: white;
+    animation: link 1s linear infinite alternate;
+    text-shadow: 0 0 0.1rem white;
+}
+
+@keyframes link {
+    0%{
+        text-shadow: 0 0 0.1rem white;
+    }
+    50%{
+        text-shadow: 0 0 1rem rgb(255, 0, 0);
+    }
+    100%{
+        text-shadow: 0 0 1rem rgb(0, 255, 34);
+    }
+    
+}
+#tick{
+    color: rgb(0, 255, 0);
+}
+
+@media (max-width: 800px) {
+    body{
+        height: 100vh;
+    }
+    .img{
+        height: 100vh;
+    }
+}
+
+@media (max-width: 400px) {
+    html{
+        font-size: 57%;
+    }
+}
+
+@media (max-width: 350px) {
+    html{
+        font-size: 50%;
+    }
+}
