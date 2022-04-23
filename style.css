@@ -108,7 +108,26 @@ body{
     letter-spacing: 0rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 4rem 1rem 3rem 0rem;
+    animation: label 0.8s linear infinite alternate;
     box-shadow: 0 0 1.5rem rgb(0, 133, 122);
+}
+@keyframes label {
+    0%{
+        box-shadow: 0 0 1.5rem rgb(0, 133, 122);
+    }
+    25%{
+        box-shadow: 0 0 1.8rem rgb(0, 189, 150);
+    }
+    50%{
+        box-shadow: 0 0 2rem rgb(0, 204, 180);
+    }
+    75%{
+        box-shadow: 0 0 2.3rem rgb(0, 219, 200);
+    }
+    100%{
+        box-shadow: 0 0 2.7rem rgb(0, 255, 234);
+    }
+    
 }
 .links a{
     color: white;
